@@ -1,4 +1,13 @@
-import { Box, Breadcrumbs, Divider, Link, List, ListItem, Typography } from '@material-ui/core';
+import {
+    Box,
+    Breadcrumbs,
+    Divider,
+    Link,
+    List,
+    ListItem,
+    Typography,
+    Container
+} from '@material-ui/core';
 import NavigateNextIcon from '@material-ui/icons/NavigateNext';
 import React from 'react';
 import constituencyArea from '../../data/constituencies_area.json';
@@ -87,11 +96,13 @@ const ConstituencyPage: React.FunctionComponent<County> = ({
         constituency => constituency.includes(county)
     );
     return (
-        <>
+        <Container>
             <Navigation title="區域立委候選人">
                 <Breadcrumbs separator={<NavigateNextIcon fontSize="small" />}>
                     <Link href="/regional">
-                        <Typography variant="h4"><u>所有縣市</u></Typography>
+                        <Typography variant="h4">
+                            <u>所有縣市</u>
+                        </Typography>
                     </Link>
                     <Typography variant="h4" color="textSecondary">
                         {county}
@@ -103,7 +114,7 @@ const ConstituencyPage: React.FunctionComponent<County> = ({
                     <ConstituencyCard name={name} county={county} key={name} />
                 ))}
             </List>
-        </>
+        </Container>
     );
 };
 
