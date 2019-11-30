@@ -13,7 +13,6 @@ import BigNum from '../Numbers/BigNum';
 import AppBarChart from './AppBarChart';
 import CompareBarChart from './CompareBarChart';
 
-
 const proposeData = proposeTimes.map(item => {
     return {
         name: item.name,
@@ -69,6 +68,7 @@ const Statistic: {
 interface PositionTab {
     name?: string;
     lastTerm?: string;
+    constituency?: string;
     lastTermYear?: string;
     interpellationCategory?: { name: string; value: number }[];
     billNumCategory?: { name: string; percent: number }[];
@@ -90,7 +90,8 @@ const getPercentage = (num: number) => {
 }
 
 const PositionTab = ({
-    name = ''
+    name = '',
+    constituency = ''
 }: PositionTab) => {
     const theme = useTheme();
     const classes = useStyle();
@@ -139,7 +140,7 @@ const PositionTab = ({
         <Box bgcolor="#F7F7F7" py={1}>
             <Box mb={2}>
                 <Alert >
-                <span>{`以下是2012-2016 年${name}擔任立法委員的紀錄。`}</span>
+                <span>{`以下是 2016-2019 年${name}擔任立法委員的紀錄。`}</span>
                 <br />
                 <span>
                     {`資料來源: `}
@@ -280,7 +281,7 @@ const PositionTab = ({
             </BasePaper> */}
             <Box p={1} bgcolor={theme.palette.background.default} />
 
-            <BasePaper title="同選區其他候選人收支" subtitle="2016 區域立委選舉 台北市 第 1 選區">
+            <BasePaper title="同選區其他候選人收支" subtitle={`2016 區域立委選舉 ` + constituency}>
                 <CompareBarChart name={name} data={statistic.otherConstituencyCandidate} />
                 <span>
                     {`資料來源: `}

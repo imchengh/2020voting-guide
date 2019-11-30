@@ -3,6 +3,7 @@ package handler
 import (
 	"fmt"
 	"net/http"
+	"strings"
 
 	"github.com/g0v/2020voting-guide/backend/internal/db"
 	"github.com/g0v/2020voting-guide/backend/internal/models"
@@ -64,7 +65,7 @@ func ListRelateBills(c *gin.Context) {
 	}
 
 	var candidate db.ManualCandidate
-	db.MySQL.Where("name = ?", name).Last(&candidate)
+	db.MySQL.Where("name = ? AND constituency = ?", name, constituency).Last(&candidate)
 
 	var orgBillsDb []db.Bill
 	caucusFilter := "本院" + getCaucusName(candidate.Party)
@@ -102,7 +103,6 @@ func GetBillHandler(c *gin.Context) {
 	api.Bill = models.Bill{
 		Name:            billDb.Name,
 		BillNo:          billDb.BillNo,
-		ProposerType:    "",
 		Description:     "",
 		Date:            "",
 		Category:        billDb.Category,
@@ -113,6 +113,11 @@ func GetBillHandler(c *gin.Context) {
 		PdfURL:          billDb.PdfURL,
 		CaseOfAction:    billDb.CaseOfAction,
 		Vernacular:      "",
+	}
+	if strings.HasSuffix(billDb.BillOrg, "黨團") {
+		api.Bill.ProposerType = "黨團提案"
+	} else {
+		api.Bill.ProposerType = "立委提案"
 	}
 
 	var descriptionsDb []db.BillDescription

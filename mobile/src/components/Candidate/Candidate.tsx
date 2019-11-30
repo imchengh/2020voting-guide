@@ -55,7 +55,7 @@ const CandidatePage = ({ match }: CandidatePage) => {
         fetch(`/api/candidate/${constituency}/${name}`)
             .then(res => res.json())
             .then(setCandidate);
-    }, [name]);
+    }, [name, constituency]);
 
     return (
         <>
@@ -89,8 +89,12 @@ const CandidatePage = ({ match }: CandidatePage) => {
                 ) : (
                     <NoInfoTab name={candidate.name} from="passPerformance" />
                 )
-            ) : (
+            ) : candidate.educations &&
+              candidate.experiences &&
+              candidate.politics ? (
                 <BasicInfoTab name={name} constituency={constituency} />
+            ) : (
+                <NoInfoTab name={candidate.name} from="basicInfo" />
             )}
         </>
     );

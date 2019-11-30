@@ -1,4 +1,10 @@
-import { Breadcrumbs, Link, List, Typography } from '@material-ui/core';
+import {
+    Breadcrumbs,
+    Link,
+    List,
+    Typography,
+    Container
+} from '@material-ui/core';
 import NavigateNextIcon from '@material-ui/icons/NavigateNext';
 import clsx from 'clsx';
 import React, { useEffect, useState } from 'react';
@@ -27,16 +33,20 @@ const CountyCandidates = ({ match }: Route) => {
                 setLoading(false);
             });
     }, [constituency]);
-    const rootClazz: string = clsx('loading', { 'is-show': isLoading });
+    const rootClazz: string = clsx('loading p-0', { 'is-show': isLoading });
     return (
-        <div className={rootClazz}>
+        <Container className={rootClazz}>
             <Navigation title="區域立委候選人">
                 <Breadcrumbs separator={<NavigateNextIcon fontSize="small" />}>
                     <Link href="/regional">
-                        <Typography variant="h4"><u>所有縣市</u></Typography>
+                        <Typography variant="h4">
+                            <u>所有縣市</u>
+                        </Typography>
                     </Link>
                     <Link href={`/regional/${county}`}>
-                        <Typography variant="h4"><u>{county}</u></Typography>
+                        <Typography variant="h4">
+                            <u>{county}</u>
+                        </Typography>
                     </Link>
                     <Typography variant="h4" color="textSecondary">
                         {constituency}
@@ -57,7 +67,7 @@ const CountyCandidates = ({ match }: Route) => {
                     />
                 ))}
             </List>
-        </div>
+        </Container>
     );
 };
 
