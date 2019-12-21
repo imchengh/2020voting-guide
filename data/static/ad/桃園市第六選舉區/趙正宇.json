@@ -1,0 +1,187 @@
+[
+  {
+    "選區": "桃園市第六選舉區",
+    "參選人": "趙正宇",
+    "AD_ID": "928439367542477",
+    "登錄為政治廣告": "否",
+    "開始日期": "2019-11-15",
+    "結束日期": "2019-11-16",
+    "廣告內容": "今日(11/16)正宇為《108年桃園市青商盃高中籃球🏀錦標賽》開球。 籃球是體育運動中深具吸引力的一種，今日錦標賽更是「以球會友」的最佳交流橋樑。 隨著裁判哨音響起，比賽正式開打，全場熱血沸騰，歡呼不斷！ 加入正宇LINE@丨獲得更多即時消息！https://line.me/R/ti/p/%40cfb3663d",
+    "圖片": "https://scontent-hkg3-1.xx.fbcdn.net/v/t1.6435-0/s600x600/74786700_2561258067288610_5565106206235688960_n.jpg?_nc_cat=111&_nc_ohc=spAxOJDgO0YAQl60J7m0EtsBh9al18mSR1rEQRMR1oJavn_NniGlGAT4g&_nc_ht=scontent-hkg3-1.xx&oh=57dd7da0cbf870d360dec74b063657ec&oe=5E7AA795",
+    "廣告詳情": {
+      "ad_creative_body": "今日(11/16)正宇為《108年桃園市青商盃高中籃球🏀錦標賽》開球。\n\n籃球是體育運動中深具吸引力的一種，今日錦標賽更是「以球會友」的最佳交流橋樑。\n\n隨著裁判哨音響起，比賽正式開打，全場熱血沸騰，歡呼不斷！\n\n加入正宇LINE@丨獲得更多即時消息！\nhttps://line.me/R/ti/p/%40cfb3663d",
+      "ad_creation_time": "2019-11-16T05:37:12+0000",
+      "ad_delivery_start_time": "2019-11-16T05:37:13+0000",
+      "ad_delivery_stop_time": "2019-11-17T05:37:12+0000",
+      "currency": "TWD",
+      "demographic_distribution": [
+        {
+          "percentage": "0.29063",
+          "age": "18-24",
+          "gender": "male"
+        },
+        {
+          "percentage": "0.299497",
+          "age": "25-34",
+          "gender": "male"
+        },
+        {
+          "percentage": "0.077687",
+          "age": "45-54",
+          "gender": "male"
+        },
+        {
+          "percentage": "0.02766",
+          "age": "18-24",
+          "gender": "female"
+        },
+        {
+          "percentage": "0.053467",
+          "age": "55-64",
+          "gender": "male"
+        },
+        {
+          "percentage": "0.17549",
+          "age": "35-44",
+          "gender": "male"
+        },
+        {
+          "percentage": "0.011249",
+          "age": "25-34",
+          "gender": "female"
+        },
+        {
+          "percentage": "0.023954",
+          "age": "65+",
+          "gender": "male"
+        },
+        {
+          "percentage": "0.010455",
+          "age": "45-54",
+          "gender": "female"
+        },
+        {
+          "percentage": "0.012043",
+          "age": "55-64",
+          "gender": "female"
+        },
+        {
+          "percentage": "0.007279",
+          "age": "65+",
+          "gender": "female"
+        },
+        {
+          "percentage": "0.009132",
+          "age": "35-44",
+          "gender": "female"
+        },
+        {
+          "percentage": "0.001059",
+          "age": "25-34",
+          "gender": "unknown"
+        },
+        {
+          "percentage": "0.000397",
+          "age": "35-44",
+          "gender": "unknown"
+        }
+      ],
+      "impressions": {
+        "lower_bound": "7000",
+        "upper_bound": "7999"
+      },
+      "page_id": "164769440270830",
+      "page_name": "趙正宇",
+      "region_distribution": [
+        {
+          "percentage": "0.024838",
+          "region": "Unknown"
+        },
+        {
+          "percentage": "0.00872",
+          "region": "Kinmen"
+        },
+        {
+          "percentage": "0.017836",
+          "region": "Keelung City"
+        },
+        {
+          "percentage": "0.038578",
+          "region": "Yunlin"
+        },
+        {
+          "percentage": "0.013608",
+          "region": "Taitung"
+        },
+        {
+          "percentage": "0.043863",
+          "region": "Pingtung"
+        },
+        {
+          "percentage": "0.010173",
+          "region": "Penghu"
+        },
+        {
+          "percentage": "0.016383",
+          "region": "Nantou"
+        },
+        {
+          "percentage": "0.021139",
+          "region": "Miaoli"
+        },
+        {
+          "percentage": "0.000661",
+          "region": "Lienchiang"
+        },
+        {
+          "percentage": "0.030651",
+          "region": "Hualien"
+        },
+        {
+          "percentage": "0.104505",
+          "region": "Kaohsiung"
+        },
+        {
+          "percentage": "0.002378",
+          "region": "Hsinchu"
+        },
+        {
+          "percentage": "0.001453",
+          "region": "Chiayi"
+        },
+        {
+          "percentage": "0.050205",
+          "region": "Changhua"
+        },
+        {
+          "percentage": "0.090501",
+          "region": "New Taipei City"
+        },
+        {
+          "percentage": "0.134496",
+          "region": "Taichung"
+        },
+        {
+          "percentage": "0.175453",
+          "region": "Taoyuan City"
+        },
+        {
+          "percentage": "0.079799",
+          "region": "Tainan"
+        },
+        {
+          "percentage": "0.103448",
+          "region": "Taipei"
+        },
+        {
+          "percentage": "0.031312",
+          "region": "Hsinchu City"
+        }
+      ],
+      "spend": {
+        "lower_bound": "300",
+        "upper_bound": "399"
+      }
+    }
+  }
+]

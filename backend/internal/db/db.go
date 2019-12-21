@@ -54,8 +54,10 @@ type Bill struct {
 	BillProposer    string `gorm:"column:billProposer"`
 	BillCosignatory string `gorm:"column:billCosignatory"`
 	BillStatus      string `gorm:"column:billStatus"`
+	DocURL          string `gorm:"column:docUrl"`
 	PdfURL          string `gorm:"column:pdfUrl"`
 	CaseOfAction    string `gorm:"column:caseOfAction"`
+	Vernacular      string
 }
 
 // BillDescription is some description for bill
@@ -90,20 +92,24 @@ type Candidate struct {
 	WikidataPicURL      string `gorm:"column:wikidataPicUrl"`
 	CurrentLegislator   bool   `gorm:"column:currentLegislator"`
 	HistoryLegislator   string `gorm:"column:historyLegislator"`
-	LastTerm            string `gorm:"column:lastTerm"`
 	DateOfBirth         string `gorm:"column:dateOfBirth"`
 	WikidataDateOfBirth string `gorm:"column:wikidataDateOfBirth"`
 	Age                 int
 }
 
 type ManualCandidate struct {
-	Name              string
-	Photo             string
-	Party             string
-	Education         string
-	Experience        string
-	Politics          string
-	CurrentLegislator bool `gorm:"column:currentLegislator"`
+	Name                 string
+	Constituency         string
+	Photo                string
+	Party                string
+	Age                  int
+	CurrentLegislator    bool `gorm:"column:currentLegislator"`
+	Education            string
+	Experience           string
+	Politics             string
+	EducationConnection  bool `gorm:"column:educationConnection"`
+	ExperienceConnection bool `gorm:"column:experienceConnection"`
+	PoliticsConnection   bool `gorm:"column:politicsConnection"`
 }
 
 func (ManualCandidate) TableName() string {

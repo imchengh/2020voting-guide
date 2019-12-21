@@ -1,6 +1,6 @@
-import './Footer.scss';
-import { Box, Container, Typography, Link, Tooltip } from '@material-ui/core';
+import { Box, Container, Link, Tooltip, Typography } from '@material-ui/core';
 import React from 'react';
+import './Footer.scss';
 
 const Footer = () => {
     return (
@@ -20,20 +20,18 @@ const Footer = () => {
                                 <a
                                     href="https://www.facebook.com/voting.guide.tw/"
                                     target="_blank"
+                                    rel="noopener noreferrer"
                                 >
                                     <span className="footer__ic-fb"></span>
                                 </a>
                             </Typography>
                         </Box>
                         <Box my={5} className="footer__block-about">
-                            {/* TODO：待頁面上線後，拿掉 Tooltip */}
-                            <Tooltip title="COMING SOON" placement="left">
-                                <Link>
+                                <Link href="/about">
                                     <Typography variant="h3">
                                         關於我們
                                     </Typography>
                                 </Link>
-                            </Tooltip>
                             <Link
                                 target="_blank"
                                 href="https://docs.google.com/forms/d/e/1FAIpQLSfc_MGy-ImXbukLWk-YsA3a96ZDf9etHF0TmSLPHPniTxaMxw/viewform"

@@ -18,27 +18,24 @@ type CandidateOverview struct {
 
 // Candidate api for candidate
 type Candidate struct {
-	Name                   string `json:"name"`
-	Photo                  string `json:"photo"`
-	County                 string `json:"county"`
-	Constituency           string `json:"constituency"`
-	Party                  string `json:"party"`
-	Age                    int    `json:"age"`
-	LastTerm               string `json:"lastTerm"`
-	LastTermYear           string `json:"lastTermYear"`
-	Educations             string `json:"educations"`
-	Experiences            string `json:"experiences"`
-	Politics               string `json:"politics"`
-	CurrentLegislator      bool   `json:"currentLegislator"`
-	SittingRate            string `json:"sittingRate"`
-	InterpellationRate     string `json:"interpellationRate"`
-	InterpellationNum      string `json:"interpellationNum"`
-	MaxInterpellationNum   string `json:"maxInterpellationNum"`
-	InterpellationCategory string `json:"interpellationCategory"`
-	BillNum                string `json:"billNum"`
-	BillNumCategory        string `json:"billNumCategory"`
-	PoliticalContribution  string `json:"politicalContribution"`
-	OtherCandidate         string `json:"otherCandidate"`
+	Name              string `json:"name"`
+	Photo             string `json:"photo"`
+	Constituency      string `json:"constituency"`
+	Party             string `json:"party"`
+	Age               int    `json:"age"`
+	Education         string `json:"education"`
+	Experience        string `json:"experience"`
+	Politic           string `json:"politic"`
+	CurrentLegislator bool   `json:"currentLegislator"`
+	// SittingRate            string `json:"sittingRate"`
+	// InterpellationRate     string `json:"interpellationRate"`
+	// InterpellationNum      string `json:"interpellationNum"`
+	// MaxInterpellationNum   string `json:"maxInterpellationNum"`
+	// InterpellationCategory string `json:"interpellationCategory"`
+	// BillNum                string `json:"billNum"`
+	// BillNumCategory        string `json:"billNumCategory"`
+	// PoliticalContribution string `json:"politicalContribution"`
+	// OtherCandidate         string `json:"otherCandidate"`
 }
 
 // Party api for party
@@ -62,6 +59,7 @@ type Bill struct {
 	BillCosignatoryString string      `json:"billCosignatoryString"`
 	BillStatus            string      `json:"billStatus"`
 	PdfURL                string      `json:"pdfUrl"`
+	DocURL                string      `json:"docUrl"`
 	CaseOfAction          string      `json:"caseOfAction"`
 	Vernacular            string      `json:"vernacular"`
 }

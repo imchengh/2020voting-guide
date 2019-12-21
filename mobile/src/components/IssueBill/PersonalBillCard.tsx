@@ -7,23 +7,33 @@ import BillDialog from './BillDialog';
 
 const useStyles = makeStyles({
     billInfo: {
-        maxHeight: '5em',
-        overflow: 'hidden'
+        display: '-webkit-box',
+        overflow: 'hidden',
+        'text-overflow': 'ellipsis',
+        '-webkit-line-clamp': 4,
+        '-webkit-box-orient': 'vertical'
+    },
+    cardName: {
+        display: '-webkit-box',
+        overflow: 'hidden',
+        'text-overflow': 'ellipsis',
+        '-webkit-line-clamp': 2,
+        '-webkit-box-orient': 'vertical'
     }
 });
 
 const PersonalBillCard = ({
     name,
     billNo,
-    description,
     caseOfAction,
+    vernacular,
     billProposerString,
     billCosignatoryString,
     proposerType
 }: {
     name: string;
     billNo: string;
-    description: string;
+    vernacular: string;
     caseOfAction: string;
     billProposerString: string;
     billCosignatoryString: string;
@@ -31,6 +41,7 @@ const PersonalBillCard = ({
 }) => {
     const [open, setOpen] = React.useState(false);
     const classes = useStyles(open);
+
     return (
         <Card key={name}>
             <Box
@@ -42,17 +53,17 @@ const PersonalBillCard = ({
                     立委提案
                 </Typography>
                 <Box height={12} />
-                <Typography variant="h3">{name}</Typography>
+                <Typography variant="h3" className={classes.cardName}>
+                    {vernacular ? vernacular : name}
+                </Typography>
                 <Box my={1}>
-                    <div
+                    <Typography
+                        variant="h4"
+                        color="textSecondary"
                         className={classes.billInfo}
                     >
-                        <Typography variant="h4" color="textSecondary">
-                            {description
-                                ? description
-                                : simplifyCaseOfAction(caseOfAction)}
-                        </Typography>
-                    </div>
+                        {vernacular ? name : simplifyCaseOfAction(caseOfAction)}
+                    </Typography>
                 </Box>
                 {open ? (
                     <BillDialog

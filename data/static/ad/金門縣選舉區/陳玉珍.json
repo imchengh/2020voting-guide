@@ -1,0 +1,131 @@
+[
+  {
+    "選區": "金門縣選舉區",
+    "參選人": "陳玉珍",
+    "AD_ID": "2404870319634970",
+    "登錄為政治廣告": "否",
+    "開始日期": "2019-12-02",
+    "結束日期": "2019-12-04",
+    "廣告內容": "專程赴台應邀出席金門軍校同學會及陸軍官校校友總會的活動，這一群熱愛中華民國的將士們，紛紛表示已訂好機位，明年1月11日，韓國瑜一票、陳玉珍一票，大家會返金一起參與這一場保衞中華民國的聖戰！",
+    "圖片": "https://scontent-hkg3-1.xx.fbcdn.net/v/t1.6435-0/s600x600/78889544_2856291317743864_3168474125324779520_n.jpg?_nc_cat=105&_nc_ohc=2ZrDDJy4CT0AQluCTfSsGU1PEF8XcDYxT1ybNv88ejCv4bUzPGyYXGBPg&_nc_ht=scontent-hkg3-1.xx&oh=ec71bcd0da9eef7fa0c171a9fc1afc64&oe=5E42B01B",
+    "廣告詳情": {
+      "ad_creative_body": "專程赴台應邀出席金門軍校同學會及陸軍官校校友總會的活動，這一群熱愛中華民國的將士們，紛紛表示已訂好機位，明年1月11日，韓國瑜一票、陳玉珍一票，大家會返金一起參與這一場保衞中華民國的聖戰！",
+      "ad_creation_time": "2019-12-02T23:07:42+0000",
+      "ad_delivery_start_time": "2019-12-02T23:07:42+0000",
+      "ad_delivery_stop_time": "2019-12-04T23:07:25+0000",
+      "currency": "TWD",
+      "demographic_distribution": [
+        {
+          "percentage": "0.160516",
+          "age": "45-54",
+          "gender": "male"
+        },
+        {
+          "percentage": "0.011258",
+          "age": "18-24",
+          "gender": "female"
+        },
+        {
+          "percentage": "0.000373",
+          "age": "25-34",
+          "gender": "unknown"
+        },
+        {
+          "percentage": "0.000969",
+          "age": "35-44",
+          "gender": "unknown"
+        },
+        {
+          "percentage": "0.000671",
+          "age": "45-54",
+          "gender": "unknown"
+        },
+        {
+          "percentage": "0.000224",
+          "age": "18-24",
+          "gender": "unknown"
+        },
+        {
+          "percentage": "0.000522",
+          "age": "55-64",
+          "gender": "unknown"
+        },
+        {
+          "percentage": "0.012525",
+          "age": "25-34",
+          "gender": "female"
+        },
+        {
+          "percentage": "0.04108",
+          "age": "18-24",
+          "gender": "male"
+        },
+        {
+          "percentage": "0.087751",
+          "age": "65+",
+          "gender": "female"
+        },
+        {
+          "percentage": "0.052337",
+          "age": "45-54",
+          "gender": "female"
+        },
+        {
+          "percentage": "0.027063",
+          "age": "35-44",
+          "gender": "female"
+        },
+        {
+          "percentage": "0.062253",
+          "age": "25-34",
+          "gender": "male"
+        },
+        {
+          "percentage": "0.101991",
+          "age": "35-44",
+          "gender": "male"
+        },
+        {
+          "percentage": "0.121822",
+          "age": "55-64",
+          "gender": "female"
+        },
+        {
+          "percentage": "0.109297",
+          "age": "65+",
+          "gender": "male"
+        },
+        {
+          "percentage": "0.209125",
+          "age": "55-64",
+          "gender": "male"
+        },
+        {
+          "percentage": "0.000224",
+          "age": "65+",
+          "gender": "unknown"
+        }
+      ],
+      "impressions": {
+        "lower_bound": "15000",
+        "upper_bound": "19999"
+      },
+      "page_id": "988612857845062",
+      "page_name": "陳玉珍 CHEN YU JEN",
+      "region_distribution": [
+        {
+          "percentage": "0.800464",
+          "region": "Taipei"
+        },
+        {
+          "percentage": "0.199536",
+          "region": "Kinmen"
+        }
+      ],
+      "spend": {
+        "lower_bound": "2000",
+        "upper_bound": "2499"
+      }
+    }
+  }
+]

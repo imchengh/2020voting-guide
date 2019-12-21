@@ -1,0 +1,444 @@
+[
+  {
+    "選區": "高雄市第三選舉區",
+    "參選人": "莊貽量",
+    "AD_ID": "2498136907123751",
+    "登錄為政治廣告": "否",
+    "開始日期": "2019-11-05",
+    "結束日期": "2019-11-06",
+    "廣告內容": "一個來自沒有政治背景的我 一個來自平凡家庭的我 為了地方而努力打拼 貽量很需要您的力挺 但是如果您的經濟很有限 請不要募款給我。 有您真心的陪伴與鼓勵 貽量已感動萬千，也會深深的 牢記在心。 #謝謝一路有您陪伴",
+    "圖片": "https://scontent-nrt1-1.xx.fbcdn.net/v/t1.6435-0/s600x600/74783011_1177992532387314_8862423212932202496_n.jpg?_nc_cat=102&_nc_oc=AQmLKAKp3HNBjsqhtkU0t2EGcGwa2dklCQUzXrQgb3Bdqcj4fBEABbZ2qi5iqCb9o5o&_nc_ht=scontent-nrt1-1.xx&oh=bb3437988d4be455a2b648a27843f7a8&oe=5E60835C",
+    "廣告詳情": {
+      "ad_creative_body": "一個來自沒有政治背景的我\n一個來自平凡家庭的我\n為了地方而努力打拼\n貽量很需要您的力挺\n但是如果您的經濟很有限\n請不要募款給我。\n有您真心的陪伴與鼓勵\n貽量已感動萬千，也會深深的\n牢記在心。\n#謝謝一路有您陪伴",
+      "ad_creation_time": "2019-11-06T07:30:37+0000",
+      "ad_delivery_start_time": "2019-11-06T07:30:37+0000",
+      "ad_delivery_stop_time": "2019-11-21T07:31:40+0000",
+      "currency": "TWD",
+      "demographic_distribution": [
+        {
+          "percentage": "0.191057",
+          "age": "18-24",
+          "gender": "male"
+        },
+        {
+          "percentage": "0.186992",
+          "age": "35-44",
+          "gender": "male"
+        },
+        {
+          "percentage": "0.162602",
+          "age": "45-54",
+          "gender": "male"
+        },
+        {
+          "percentage": "0.013211",
+          "age": "25-34",
+          "gender": "female"
+        },
+        {
+          "percentage": "0.20122",
+          "age": "25-34",
+          "gender": "male"
+        },
+        {
+          "percentage": "0.089431",
+          "age": "55-64",
+          "gender": "male"
+        },
+        {
+          "percentage": "0.021341",
+          "age": "55-64",
+          "gender": "female"
+        },
+        {
+          "percentage": "0.009146",
+          "age": "18-24",
+          "gender": "female"
+        },
+        {
+          "percentage": "0.007114",
+          "age": "35-44",
+          "gender": "female"
+        },
+        {
+          "percentage": "0.023374",
+          "age": "45-54",
+          "gender": "female"
+        },
+        {
+          "percentage": "0.07622",
+          "age": "65+",
+          "gender": "male"
+        },
+        {
+          "percentage": "0.001016",
+          "age": "35-44",
+          "gender": "unknown"
+        },
+        {
+          "percentage": "0.015244",
+          "age": "65+",
+          "gender": "female"
+        },
+        {
+          "percentage": "0.001016",
+          "age": "18-24",
+          "gender": "unknown"
+        },
+        {
+          "percentage": "0.001016",
+          "age": "45-54",
+          "gender": "unknown"
+        }
+      ],
+      "impressions": {
+        "lower_bound": "1000",
+        "upper_bound": "1999"
+      },
+      "page_id": "555779134608660",
+      "page_name": "莊貽量-左楠量起來",
+      "region_distribution": [
+        {
+          "percentage": "0.56338",
+          "region": "Kaohsiung"
+        },
+        {
+          "percentage": "0.43662",
+          "region": "Taipei"
+        }
+      ],
+      "spend": {
+        "lower_bound": "100",
+        "upper_bound": "199"
+      }
+    }
+  },
+  {
+    "選區": "高雄市第三選舉區",
+    "參選人": "莊貽量",
+    "AD_ID": "2168923880078219",
+    "登錄為政治廣告": "否",
+    "開始日期": "2019-11-06",
+    "結束日期": "2019-11-20",
+    "廣告內容": "一個來自沒有政治背景的我 一個來自平凡家庭的我 為了地方而努力打拼 貽量很需要您的力挺 但是如果您的經濟很有限 請不要募款給我。 有您真心的陪伴與鼓勵 貽量已感動萬千，也會深深的 牢記在心。 #謝謝一路有您陪伴",
+    "圖片": "https://scontent-hkg3-1.xx.fbcdn.net/v/t1.6435-0/s600x600/74783011_1177992532387314_8862423212932202496_n.jpg?_nc_cat=102&_nc_ohc=fsa3pa15WZIAQkufBeycOf3ZHNc6xM9DIQjV8PeKAnAw20CVyuQ_KsDyQ&_nc_ht=scontent-hkg3-1.xx&oh=51377961434bbcb9497cbde3bfbcdc27&oe=5E88105C",
+    "廣告詳情": {
+      "ad_creative_body": "一個來自沒有政治背景的我\n一個來自平凡家庭的我\n為了地方而努力打拼\n貽量很需要您的力挺\n但是如果您的經濟很有限\n請不要募款給我。\n有您真心的陪伴與鼓勵\n貽量已感動萬千，也會深深的\n牢記在心。\n#謝謝一路有您陪伴",
+      "ad_creation_time": "2019-11-06T22:31:08+0000",
+      "ad_delivery_start_time": "2019-11-06T22:31:08+0000",
+      "ad_delivery_stop_time": "2019-11-21T07:31:40+0000",
+      "currency": "TWD",
+      "demographic_distribution": [
+        {
+          "percentage": "0.075998",
+          "age": "65+",
+          "gender": "male"
+        },
+        {
+          "percentage": "0.025974",
+          "age": "55-64",
+          "gender": "female"
+        },
+        {
+          "percentage": "0.000481",
+          "age": "18-24",
+          "gender": "unknown"
+        },
+        {
+          "percentage": "0.000481",
+          "age": "55-64",
+          "gender": "unknown"
+        },
+        {
+          "percentage": "0.000481",
+          "age": "65+",
+          "gender": "unknown"
+        },
+        {
+          "percentage": "0.000481",
+          "age": "25-34",
+          "gender": "unknown"
+        },
+        {
+          "percentage": "0.00962",
+          "age": "18-24",
+          "gender": "female"
+        },
+        {
+          "percentage": "0.01443",
+          "age": "35-44",
+          "gender": "female"
+        },
+        {
+          "percentage": "0.000962",
+          "age": "45-54",
+          "gender": "unknown"
+        },
+        {
+          "percentage": "0.152477",
+          "age": "45-54",
+          "gender": "male"
+        },
+        {
+          "percentage": "0.015392",
+          "age": "25-34",
+          "gender": "female"
+        },
+        {
+          "percentage": "0.178451",
+          "age": "25-34",
+          "gender": "male"
+        },
+        {
+          "percentage": "0.027417",
+          "age": "65+",
+          "gender": "female"
+        },
+        {
+          "percentage": "0.126984",
+          "age": "55-64",
+          "gender": "male"
+        },
+        {
+          "percentage": "0.023088",
+          "age": "45-54",
+          "gender": "female"
+        },
+        {
+          "percentage": "0.192881",
+          "age": "35-44",
+          "gender": "male"
+        },
+        {
+          "percentage": "0.15392",
+          "age": "18-24",
+          "gender": "male"
+        },
+        {
+          "percentage": "0.000481",
+          "age": "35-44",
+          "gender": "unknown"
+        }
+      ],
+      "impressions": {
+        "lower_bound": "2000",
+        "upper_bound": "2999"
+      },
+      "page_id": "555779134608660",
+      "page_name": "莊貽量-左楠量起來",
+      "region_distribution": [
+        {
+          "percentage": "0.523188",
+          "region": "Kaohsiung"
+        },
+        {
+          "percentage": "0.476812",
+          "region": "Taipei"
+        }
+      ],
+      "spend": {
+        "lower_bound": "400",
+        "upper_bound": "499"
+      }
+    }
+  },
+  {
+    "選區": "高雄市第三選舉區",
+    "參選人": "莊貽量",
+    "AD_ID": "484403815497821",
+    "登錄為政治廣告": "否",
+    "開始日期": "2019-11-05",
+    "結束日期": "2019-11-12",
+    "廣告內容": "一個來自沒有政治背景的我 一個來自平凡家庭的我 為了地方而努力打拼 貽量很需要您的力挺 但是如果您的經濟很有限 請不要募款給我。 有您真心的陪伴與鼓勵 貽量已感動萬千，也會深深的 牢記在心。 #謝謝一路有您陪伴",
+    "圖片": "https://scontent-hkg3-1.xx.fbcdn.net/v/t1.6435-0/s600x600/74698789_1176821592504408_2801563822370848768_n.jpg?_nc_cat=103&_nc_ohc=kwfQrbkTai8AQlGH8p1gdt2WS4-vr-CK5j1QSm4mePZvnkEgXFpxQJxaQ&_nc_ht=scontent-hkg3-1.xx&oh=175caa78257800af9933f97e5355f015&oe=5E6F7926",
+    "廣告詳情": {
+      "ad_creative_body": "一個來自沒有政治背景的我\n一個來自平凡家庭的我\n為了地方而努力打拼\n貽量很需要您的力挺\n但是如果您的經濟很有限\n請不要募款給我。\n\n有您真心的陪伴與鼓勵\n貽量已感動萬千，也會深深的\n牢記在心。\n#謝謝一路有您陪伴",
+      "ad_creation_time": "2019-11-05T10:09:44+0000",
+      "ad_delivery_start_time": "2019-11-05T10:09:44+0000",
+      "ad_delivery_stop_time": "2019-11-13T00:24:53+0000",
+      "currency": "TWD",
+      "demographic_distribution": [
+        {
+          "percentage": "0.037037",
+          "age": "45-54",
+          "gender": "male"
+        },
+        {
+          "percentage": "0.333333",
+          "age": "25-34",
+          "gender": "male"
+        },
+        {
+          "percentage": "0.074074",
+          "age": "55-64",
+          "gender": "male"
+        },
+        {
+          "percentage": "0.481481",
+          "age": "18-24",
+          "gender": "male"
+        },
+        {
+          "percentage": "0.074074",
+          "age": "35-44",
+          "gender": "male"
+        }
+      ],
+      "impressions": {
+        "lower_bound": "0",
+        "upper_bound": "999"
+      },
+      "page_id": "555779134608660",
+      "page_name": "莊貽量-左楠量起來",
+      "region_distribution": [
+        {
+          "percentage": "0.037037",
+          "region": "Unknown"
+        },
+        {
+          "percentage": "0.074074",
+          "region": "Kaohsiung"
+        },
+        {
+          "percentage": "0.185185",
+          "region": "Taipei"
+        },
+        {
+          "percentage": "0.111111",
+          "region": "Tainan"
+        },
+        {
+          "percentage": "0.074074",
+          "region": "Taoyuan City"
+        },
+        {
+          "percentage": "0.074074",
+          "region": "Taichung"
+        },
+        {
+          "percentage": "0.074074",
+          "region": "New Taipei City"
+        },
+        {
+          "percentage": "0.148148",
+          "region": "Changhua"
+        },
+        {
+          "percentage": "0.037037",
+          "region": "Hualien"
+        },
+        {
+          "percentage": "0.148148",
+          "region": "Yunlin"
+        },
+        {
+          "percentage": "0.037037",
+          "region": "Hsinchu City"
+        }
+      ],
+      "spend": {
+        "lower_bound": "0",
+        "upper_bound": "99"
+      }
+    }
+  },
+  {
+    "選區": "高雄市第三選舉區",
+    "參選人": "莊貽量",
+    "AD_ID": "569364910480817",
+    "登錄為政治廣告": "否",
+    "開始日期": "2019-11-26",
+    "結束日期": "2019-12-06",
+    "廣告內容": "昨天非常感謝🙏 黨主席（柯文哲與夫人） 南下，帶領高雄市候選人 掃街、拜票。一起合體 現場超熱鬧，加油、再加油💪 #藍綠推兩邊 #民眾擺中間 #讓左楠年輕一次 #票投左楠量起來 #莊貽量",
+    "圖片": "https://scontent-hkg3-1.xx.fbcdn.net/v/t1.6435-0/s600x600/76646861_1194635544056346_324317709279952896_n.jpg?_nc_cat=100&_nc_ohc=NY7Rs2TBvIAAQn5KtsbmpVcxPOkIsHSf7R-MsLyDni79b_KsTng34MVlQ&_nc_ht=scontent-hkg3-1.xx&oh=b26daadf5557a414268fc7a9dc823b72&oe=5E71310D",
+    "廣告詳情": {
+      "ad_creative_body": "昨天非常感謝🙏\n柯文哲與夫人）\n南下。一起合體\n現場超熱鬧，加油、再加油💪\n#藍綠推兩邊\n#民眾擺中間\n#讓左楠年輕一次\n#票投左楠量起來\n#莊貽量",
+      "ad_creation_time": "2019-11-26T18:24:50+0000",
+      "ad_delivery_start_time": "2019-11-26T18:24:51+0000",
+      "ad_delivery_stop_time": "2019-12-06T18:24:50+0000",
+      "currency": "TWD",
+      "demographic_distribution": [
+        {
+          "percentage": "0.156566",
+          "age": "18-24",
+          "gender": "male"
+        },
+        {
+          "percentage": "0.174242",
+          "age": "45-54",
+          "gender": "male"
+        },
+        {
+          "percentage": "0.017677",
+          "age": "25-34",
+          "gender": "female"
+        },
+        {
+          "percentage": "0.204545",
+          "age": "25-34",
+          "gender": "male"
+        },
+        {
+          "percentage": "0.025253",
+          "age": "55-64",
+          "gender": "female"
+        },
+        {
+          "percentage": "0.093434",
+          "age": "55-64",
+          "gender": "male"
+        },
+        {
+          "percentage": "0.199495",
+          "age": "35-44",
+          "gender": "male"
+        },
+        {
+          "percentage": "0.007576",
+          "age": "18-24",
+          "gender": "female"
+        },
+        {
+          "percentage": "0.020202",
+          "age": "45-54",
+          "gender": "female"
+        },
+        {
+          "percentage": "0.063131",
+          "age": "65+",
+          "gender": "male"
+        },
+        {
+          "percentage": "0.020202",
+          "age": "35-44",
+          "gender": "female"
+        },
+        {
+          "percentage": "0.017677",
+          "age": "65+",
+          "gender": "female"
+        }
+      ],
+      "impressions": {
+        "lower_bound": "0",
+        "upper_bound": "999"
+      },
+      "page_id": "555779134608660",
+      "page_name": "莊貽量-左楠量起來",
+      "region_distribution": [
+        {
+          "percentage": "0.381313",
+          "region": "Kaohsiung"
+        },
+        {
+          "percentage": "0.618687",
+          "region": "Taipei"
+        }
+      ],
+      "spend": {
+        "lower_bound": "0",
+        "upper_bound": "99"
+      }
+    }
+  }
+]

@@ -1,10 +1,8 @@
 import { Box, Typography } from '@material-ui/core';
-import { useTheme } from '@material-ui/core/styles';
 import React from 'react';
 import CaucusBill from './CaucusBillCard';
 import './IssueBill.scss';
 import PersonalBill from './PersonalBillCard';
-
 export interface Bill {
     name: string;
     description: string;
@@ -20,6 +18,7 @@ export interface Bill {
     billProposerString: string;
     billCosignatoryString: string;
     pdfUrl: string;
+    vernacular: string;
 }
 
 interface IssueBillProps {
@@ -27,28 +26,8 @@ interface IssueBillProps {
     bills: Bill[];
 }
 
-export const RelatePerson = ({
-    proposer,
-    cosignatory
-}: {
-    proposer: string;
-    cosignatory: string;
-}) => {
-    const theme = useTheme();
-    return (
-        <Box my={1} p={1} bgcolor={theme.palette.background.default}>
-            <Typography variant="h5" color="textSecondary" gutterBottom>
-                提案人：{proposer.split('；').join('  ')}
-            </Typography>
-            <Typography variant="h5" color="textSecondary" gutterBottom>
-                連署： {cosignatory.split('；').join('  ')}
-            </Typography>
-        </Box>
-    );
-};
-
 const Issue = ({ name }: { name: string }) => (
-    <Box display="flex">
+    <Box display="flex" alignItems="center">
         <Box
             width="8px"
             height="24px"
@@ -72,8 +51,8 @@ const IssueBill = ({ issue, bills }: IssueBillProps) => {
         <>
             <Box mx={1.5} py={3}>
                 <Issue name={issue} />
-                {legislatorBill.map(bill => (
-                    <PersonalBill {...bill} key={bill.billNo} />
+                {legislatorBill.map((bill, i) => (
+                    <PersonalBill {...bill} key={bill.billNo + i} />
                 ))}
                 {caucusBills.length ? <CaucusBill bills={caucusBills} /> : null}
             </Box>

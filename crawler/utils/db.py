@@ -1,6 +1,7 @@
 from os import environ
 
-from peewee import BooleanField, CharField, IntegerField, Model, MySQLDatabase, SmallIntegerField, TextField
+from peewee import (BooleanField, CharField, IntegerField, Model,
+                    MySQLDatabase, SmallIntegerField, TextField)
 
 USER = environ["MYSQL_USER"]
 PASSWORD = environ["MYSQL_PASSWORD"]
@@ -40,13 +41,14 @@ class ManualCandidate(BaseModel):
     age = CharField(null=True)
     photo = TextField(null=True)
     wiki = CharField(null=True)
-    fbPage = CharField(null=True)
+    fbPage = TextField(null=True)
+    fbPersonalPage = TextField(null=True)
     education = CharField(null=True)
     educationConn = CharField(null=True)
     experience = TextField(null=True)
     experienceConn = CharField(null=True)
     politics = TextField(null=True)
-    politicsConn = CharField(null=True)
+    politicsConn = TextField(null=True)
     other = TextField(null=True)
 
 
@@ -146,6 +148,7 @@ class Bill(BaseModel):
     meetingTimes = CharField(null=True)
     billName = CharField()
     caseOfAction = TextField()
+    vernacular = CharField()
 
 
 class BillDescription(BaseModel):
@@ -215,3 +218,8 @@ class AD(BaseModel):
     startDate = CharField()
     endDate = CharField()
     content = CharField()
+
+
+class Vernacular(BaseModel):
+    bill_no = CharField()
+    vernacular = CharField()
